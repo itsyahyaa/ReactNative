@@ -7,6 +7,7 @@ import {
   TouchableNativeFeedback,
   Image,
   SafeAreaView,
+  Button,
 } from "react-native";
 
 export default function App() {
@@ -25,6 +26,8 @@ export default function App() {
           style={{ width: 200, height: 70, backgroundColor: "dodgerblue" }}
         ></View>
       </TouchableNativeFeedback>
+
+      <Button title="Click Me" onPress={() => alert("hhhhh")} />
     </SafeAreaView>
   );
 }
